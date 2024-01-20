@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+#nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav img{
+    width: 14%;
+    height: 40%;
+    margin: 0 20px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "gilroy";
+    text-transform: uppercase;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0 20px;
+    text-transform: uppercase;
+    font-family: "gilroy";
+    font-weight: 500;
+}
+#nav-part2 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+#nav-part2 button{
+    padding: 11px 20px;
+    border-radius: 3px;
+    border: 2px solid white;
+}
+#mad{
+    width: 100%;
+    height: 72%;
+}
+#mad h1{
+    font-size: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "gilroy";
+    line-height: 130px;
+    position: relative;
+    z-index: 12;
+}
+#mad h1 span{
+    background-color: brown;
+    font-size: 25px;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+#mad #left{
+    width: 200px;
+    height: 240px;
+    object-fit: cover;
+    position: absolute;
+    top: 14%;
+    left: 2%;
+    border-radius: 8px;
+}
+#mad #right{
+    width: 200px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 8px;
+    position: absolute;
+    right: 5%;
+    bottom: 19%;
+}
+#mad #right1{
+    width: 230px;
+    height: 120px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 10%;
+    right: 30%;
+}
+#mad #left1{
+    width: 280px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 17%;
+    left: 23%;
+}
+#textcard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    left: 40%;
+}
+#card{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(237, 243, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card i{
+    color: black;
+    font-size: 32px;
+}
+#textcard p{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "gilroy";
+}
+
+#last-part{
+    width: 100%;
+    height: 18%;
+    display: flex;
+}
+
+#mind{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#mind i{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#mind1{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#mind1 p{
+    font-family: "gilroy";
+    font-size: 23px;
+}
+
+#mind1 i{
+    font-size: 30px;
+    margin-top: 6px;
+}
